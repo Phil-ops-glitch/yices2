@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #060810;
+  color: #cbd5e1;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2433;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2d3548;
+}
+
+select option {
+  background: #0f1117;
+  color: #e2e8f0;
+}
